@@ -10,7 +10,7 @@ module gm_world::MyPerson {
         age: u8,
         date_of_birth: String,
     }
-    
+
     #[allow(lint(self_transfer))]
 
     public fun person (name: String, city: String, age: u8, 
@@ -31,3 +31,5 @@ module gm_world::MyPerson {
                 }
 
 }
+
+// AD5mbhNXjoAbUX8A296QtjsvAs5AJa7whktz9ACe63dN
